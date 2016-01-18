@@ -7,7 +7,7 @@ def connect():
 	s.bind(("192.168.1.4", 3389))
 	s.listen(1)
 	conn, addr = s.accept()
-	print '[+] Seja bem vindo a: ', addr
+	print 'Seja bem vindo a: ', addr
 
 	while True:
 
